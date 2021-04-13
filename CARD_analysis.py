@@ -71,7 +71,7 @@ class CARD(object):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Gimme gimme input your input, won't somebody please analyse my data.")
+    parser = argparse.ArgumentParser(description="Money can be used for goods and services. Similarly, data can be used for analysis and inspire frustration.")
     parser.add_argument("-in", help="RGI output", required=True, dest="inp")
     parser.add_argument("-out", help="Your output file, directory does need to exist", required=True, dest="outp")
     args = parser.parse_args()
